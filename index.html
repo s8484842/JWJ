@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>張嘉文的網站</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<!-- My CSS-->
+        <link href="css/my.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" onclick="Collapse();" href="#page-top">張嘉文</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" onclick="Collapse();" href="#page-top">首頁</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" onclick="Collapse();" href="##"><div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#news">最新消息</div></a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" onclick="Collapse();" href="#portfolio">作品集</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" onclick="Collapse();" href="#about">關於我</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" onclick="Collapse();" href="#contact">聯絡我</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/headshot.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">張嘉文</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">國立台灣師範大學 資訊工程學系 博士生 - 計算機圖學 - 光線追蹤</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">作品集</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+					<h2 class="portfolio-subtitle">論文發表</h2>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items (Paper)-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Paper 5-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioPaper5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paper05.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Paper 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioPaper4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paper04.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Paper 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioPaper3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paper03.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Paper 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioPaper2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paper02.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Paper 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioPaper1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paper01.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+				<!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+					<h2 class="portfolio-subtitle">程式專題</h2>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+				<!-- Portfolio Grid Items (Code)-->
+				<div class="row justify-content-center">
+                    <!-- Portfolio Model 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioCode1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/code01.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+				<!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+					<h2 class="portfolio-subtitle">3D建模</h2>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+				<!-- Portfolio Grid Items (Model)-->
+				<div class="row justify-content-center">
+                    <!-- Portfolio Model 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModel3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3d03.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Model 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModel2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3d02.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Model 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModel1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3d01.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+				<!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+					<h2 class="portfolio-subtitle">2D繪圖</h2>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+				<!-- Portfolio Grid Items (Draw)-->
+				<div class="row justify-content-center">
+                    <!-- Portfolio Draw 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioDraw3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2d03.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Draw 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioDraw2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2d02.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Draw 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioDraw1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2d01.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+			</div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">關於我</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row lead">
+					<div class="col-lg-4 me-auto">
+						<h2>自傳</h2>
+						<p>從小喜歡電玩，立志以電腦工程師為目標。喜歡程式和美術，希望未來能從事計算機圖學相關的工作。</p>
+						<p>興趣：寫程式、建模、繪圖、打籃球、打羽球、看小說、玩手遊</p>
+						<br />
+						<h2>學歷</h2>
+						<ul>
+							<li>國小 : 2002/09~2008/06<br />
+								桃園市元生國民小學</li>
+							<li>國中 : 2008/09~2011/06<br />
+								桃園市內壢國民中學</li>
+							<li>高中 : 2011/09~2014/06<br />
+								國立中央大學附屬中壢高級中學</li>
+							<li>大學 : 2014/09~2018/06<br />
+								國立台灣師範大學 資訊工程學系</li>
+							<li>碩士 : 2018/09~2021/01<br />
+								國立台灣師範大學 資訊工程學系</li>
+							<li>博士 : 2021/02~now<br />
+								國立台灣師範大學 資訊工程學系</li>
+						</ul>
+						<br />
+						<h2>檢定</h2>
+						<ul>
+							<li>APCS 大學程式設計先修檢測 皆五級</li>
+							<li>CPE 大學程式能力檢定 專業級</li>
+						</ul>
+						<br />
+					</div>
+					<div class="col-lg-4 me-auto">
+						<h2>事蹟</h2>
+						<ul>
+							<li>2016 ITSA盃程式設計桂冠挑戰大賽 佳作</li>
+							<li>2016 全國大專電腦軟體設計競賽 佳作</li>
+							<li>2021 Eurographics Poster<br />
+								An Unbiased Hybrid Rendering Approach to Path Guiding</li>
+							<li>2022 Pacific Graphic Paper<br />
+								Specular Manifold Bisection Sampling for Caustics Rendering</li>
+							<li>2023 IEEE ICASI Paper<br />
+								Implementation of Manifold Next Event Estimation for Caustics Rendering on Vulkan</li>
+							<li>2024 I3D Poster<br />
+								Improved G-buffer for Denoising Path Traced Rendering</li>
+						</ul>
+						<br />
+						<h2>工作</h2>
+						<ul>
+							<li>2018/09~2019/01<br />
+								臺北市萬福國民小學 電腦老師</li>
+							<li>2019/02~2019/06<br />
+								臺北市和平高級中學國中部 電腦老師</li>
+							<li>2019/07~2019/08<br />
+								聯發科技 實習生</li>
+							<li>2020/02~now<br />
+								科技部產學合作計畫 聯發科技</li>
+							<li>2021/09~2023/06<br />
+								新北市忠孝國民中學 電腦老師</li>
+							<li>2022/09~now<br />
+								APCS程式設計家教</li>
+						</ul>
+						<br />
+					</div>
+				</div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">聯絡我</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- * * * * * * * * *-->
+                        <!-- * * Formspree * *-->
+                        <!-- * * * * * * * * *-->
+                        <!-- This form is pre-integrated with Formspree.-->
+                        <!-- https://formspree.io/-->
+						<form
+							action="https://formspree.io/f/xpzenlva"
+							method="POST"
+							target="_blank"
+						>
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="name" type="text" style="padding-bottom: 10px; height: 64px;" required />
+                                <label for="name">真實姓名<sup class="form-must"> *必填</sup></label>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="email" type="email" style="padding-bottom: 10px; height: 64px;" />
+                                <label for="email">電子信箱</label>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="phone" type="tel" style="padding-bottom: 10px; height: 64px;" />
+                                <label for="phone">電話號碼</label>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" name="message" type="text" style="padding-bottom: 10px; height: 8rem" required></textarea>
+                                <label for="message">意見內容<sup class="form-must"> *必填</sup></label>
+                            </div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary btn-xl" type="submit">確認寄出</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">聯絡資訊</h4>
+                        <p class="lead mb-0">
+                            320 桃園市中壢區復華街280號3樓
+							<br />
+							(+886) 0952734168
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">社群平台</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100000419716250" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/s8484842/" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/channel/UCu9Jdz3ASQ70OcVbV806ThQ" target="_blank"><i class="fab fa-fw fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/s8484842" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">關於模板</h4>
+                        <p class="lead mb-0">
+                            <a href="https://startbootstrap.com/theme/freelancer" target="_blank">出處連結</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>&copy; 2024 由張嘉文修改</small></div>
+        </div>
+        <!-- News-->
+        <div class="portfolio-modal modal fade" id="news" tabindex="-1" aria-labelledby="news" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">最新消息</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+									<ol class="mb-4" style="text-align:justify" style="width:100%; overflow:auto; background:None;">
+										<li>想畢業了</li>
+										<li>博論題目(暫定)<br />互動式蒙特卡羅路徑追蹤：在包含鏡面鏈的光傳輸路徑中產生高頻效果<br />Interactive Monte Carlo Path Tracing for rendering high frequency effects in light transport paths with specular chains</li>
+										<li>計劃書口試時間 : 未知</li>
+										<li>論文口試時間 : 未知</li>
+									</ol>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Papers-->
+        <!-- Portfolio Paper 5-->
+        <div class="portfolio-modal modal fade" id="portfolioPaper5" tabindex="-1" aria-labelledby="portfolioPaper5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Improved G-buffer for Denoising Path Traced Rendering<br />(2024 I3D Poster)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/paper05.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+									<p class="mb-4">Keywords: path tracing, real-time rendering, denoising, pure-specular surface, g-buffer</p>
+                                    <p class="mb-4" style="text-align:justify">Monte Carlo Path Tracing produces photo-realistic 3D rendering but often requires a denoising pass in practice to achieve interactive frame rates. We propose an improved G-buffer scheme that obtains more geometric information from the ray tracing pipeline to tackle the problems in existing denoising methods which often blur the details on mirror-like reflection and glass-like refraction. In real-time path tracing, our method could generate low-noise images from as low as one sample per pixel. In our evaluation using SSIM, our method shows 30% to 50% improvement over the SVGF, a well-known path tracing denoising method.</p>
+									<p class="mb-4" style="text-align:justify">蒙特卡羅路徑追蹤可產生逼真的三維場景渲染，但在實務上通常需要降噪通道才能實現互動式幀速率。我們提出了一種改進的幾何緩衝區方案，該方案從光線追蹤管道中獲取更多幾何信息，以解決現有去噪方法中經常模糊鏡面反射和玻璃折射細節的問題。在即時路徑追蹤中，我們的方法可以從每像素一個樣本產生低雜訊影像。在我們使用結構相似性指標的評估中，我們的方法比時空方差引導濾波（一種著名的路徑追蹤去噪方法）提高了三十到五十百分比。</p>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=ajDQFJMryq0" target="_blank">
+										<i class="fab fa-youtube"></i>
+										演示影片(反射)
+									</a>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=1ed65ySeBMw" target="_blank">
+										<i class="fab fa-youtube"></i>
+										演示影片(折射)
+									</a>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Paper 4-->
+        <div class="portfolio-modal modal fade" id="portfolioPaper4" tabindex="-1" aria-labelledby="portfolioPaper4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Implementation of Manifold Next Event Estimation for Caustics Rendering on Vulkan<br />(2023 IEEE ICASI Paper)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/paper04.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+									<p class="mb-4">Keywords: path tracing, caustics, manifold next event estimation, vulkan</p>
+                                    <p class="mb-4" style="text-align:justify">Caustics rendering has been an important topic in computer graphics. It is particularly a challenging problem because of the difficulty in path tracing algorithms to handle the specular-diffuse-specular paths. Recently Manifold Next Event Estimation (MNEE) has demonstrated its efficiency for dealing with the caustics paths and has been implemented in the Mitsuba renderer on desktop computers. However, MNEE has not yet been implemented on mobile devices to our best knowledge. In this paper, we implemented the MNEE methods on Vulkan, so that it can run on both desktop computers and mobile devices.</p>
+									<p class="mb-4" style="text-align:justify">焦散渲染一直是計算機圖形學中的一個重要課題。這是一個特別具有挑戰性的問題，因為路徑跟踪算法難以處理鏡面反射漫反射路徑。最近，流形次事件估計展示了其處理焦散路徑的效率，並已在個人電腦上的三葉渲染器中實現。但是，據我們所知，流形次事件估計尚未在移動設備上實施。在本文中，我們在凡爾康上實作了流形次事件估計方法，以便它可以在個人電腦和移動設備上運行。</p>
+									<a class="btn btn-primary" href="https://ieeexplore.ieee.org/document/10179503" target="_blank">
+										<i class="fas fa-download me-2"></i>
+										論文下載
+									</a>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Paper 3-->
+        <div class="portfolio-modal modal fade" id="portfolioPaper3" tabindex="-1" aria-labelledby="portfolioPaper3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Specular Manifold Bisection Sampling for Caustics Rendering<br />(2022 Pacific Graphic Paper)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/paper03.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Keywords: specular light paths, specular-diffuse-specular paths, caustics, manifold</p>
+                                    <p class="mb-4" style="text-align:justify">We propose Specular Manifold Bisection Sampling (SMBS), an improved version of Specular Manifold Sampling (SMS). SMBS is inspired by the small and large mutations in Metropolis Light Transport (MLT). While the Jacobian Matrix of the original SMS method performs well in local convergence (the small mutation), it might fail to find a valid manifold path when the ray deviates too much from the light or bounces from a complex surface. Our proposed SMBS method adds a large mutation step to avoid such a problematic convergence to the local minimum. The results show SMBS can find valid manifold paths in fewer iterations and also find more valid manifold paths. In scenes with complex reflective or refractive surfaces, our method achieves nearly twice or more improvement when measured in manifold walk success rate (SR) and root mean square error (RMSE).</p>
+									<p class="mb-4" style="text-align:justify">我們提出鏡面流形二分採樣，這是鏡面流形採樣的改進版本。鏡面流形二分採樣的靈感來自梅特羅波利斯光傳輸中的小型和大型突變。雖然原始鏡面流形採樣方法的雅可比矩陣在局部收斂（小突變）方面表現良好，但當光線偏離光線太多或從復雜表面反彈時，它可能無法找到有效的流形路徑。我們提出的鏡面流形二分採樣方法增加了一個大的突變步驟，以避免這種有問題的收斂到局部最小值。結果表明鏡面流形二分採樣可以在更少的迭代中找到有效的流形路徑，並且還可以找到更多有效的流形路徑。在具有復雜反射或折射表面的場景中，我們的方法在流形行走成功率和均方根誤差方面實現了近兩倍或更多的改進。</p>
+                                    <a class="btn btn-primary" href="https://www.youtube.com/watch?v=vSyaZBs7TXY" target="_blank">
+										<i class="fab fa-youtube"></i>
+										演示影片
+									</a>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=SPEM2gwR4VA" target="_blank">
+										<i class="fab fa-youtube"></i>
+										報告影片
+									</a>
+									<a class="btn btn-primary" href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14673" target="_blank">
+										<i class="fas fa-download me-2"></i>
+										論文下載
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Paper 2-->
+        <div class="portfolio-modal modal fade" id="portfolioPaper2" tabindex="-1" aria-labelledby="portfolioPaper2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">An Unbiased Hybrid Rendering Approach to Path Guiding<br />(2021 Eurographics Poster)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/paper02.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+									<p class="mb-4">Keywords: path guiding, voxel cone tracing</p>
+                                    <p class="mb-4" style="text-align:justify">When we think of hybrid rendering of rasterization and ray tracing, we often consider rasterization as a mean to solve the primary rays and then consider ray tracing as a mean to add secondary effects. We take a different approach to combine ray tracing and rasterization, in which our final output images are still produced with a path tracer. We leverage the GPU rasterization to build the necessary data that are required for path guiding, thus improves the convergence of our path tracer. We borrow the ideas of Voxel Cone Tracing and implement it in GPU shaders to build the path guiding data. The advantage of our proposed hybrid approach is that it maintains the unbiased results of a Monte Carlo path tracer while incurring relatively small performance hit in path guiding, as shown in our preliminary results.</p>
+									<p class="mb-4" style="text-align:justify">當我們考慮光柵化和光線追蹤的混合渲染時，我們通常將光柵化視為解決主要光線的手段，然後將光線追蹤視為添加次要效果的手段。我們採用不同的方法來結合光線追蹤和光柵化，其中我們的最終輸出影像仍然是使用路徑追蹤器產生的。我們利用光柵化來建構路徑引導所需的必要數據，從而提高路徑追蹤器的收斂性。我們借鑒了體素錐體追蹤的思想，並在著色器中實現它來建立路徑引導資料。我們提出的混合方法的優點是，它保持了蒙特卡羅路徑追蹤器的無偏結果，同時在路徑引導中產生相對較小的效能影響，如我們的初步結果所示。</p>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=zqrfz8AB_gM" target="_blank">
+										<i class="fab fa-youtube"></i>
+										報告影片
+									</a>
+									<a class="btn btn-primary" href="https://diglib.eg.org/items/8cc08576-80cd-4541-acb5-961d801b2049" target="_blank">
+										<i class="fas fa-download me-2"></i>
+										論文下載
+									</a>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Paper 1-->
+        <div class="portfolio-modal modal fade" id="portfolioPaper1" tabindex="-1" aria-labelledby="portfolioPaper1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Achieving Interactive Physically Based Rendering of Complex Scenes on Mobile Platforms<br />(2021 master’s thesis)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/paper01.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+									<p class="mb-4">Keywords: mobile devices, path tracing</p>
+									<p class="mb-4" style="text-align:justify">In the past, due to the limitations of mobile phones in terms of computing speed and memory capacity, in order to achieve real-time interaction in games, most people showed textures on the screen, or generated effects of shadow and direct lighting by rasterization. But it is difficult to have realistic images such as reflection, refraction, and scattering that give players a sense of presence.<br />
+													Now that the real-time ray tracing technology on computers has matured, mobile phones will inevitably become the next target. In this paper, we use OpenGL Compute Shader to achieve path tracing on the mobile phone. We implement Bounding Volume Hierarchy acceleration structures with Surface Area Heuristic and Huffman Coding to reduce the search time for triangle intersection. We use Stack-less BVH Traversal to run on the SIMT architecture efficiently. In addition, we experiment with different ray tracing methods such as Bidirectional Path Tracing (BDPT), and Metropolis Light Transport (MLT) to accelerate the convergence of image colors. The final results show that even for complex scenes, our program can still draw a realistic and less noisy picture in short time.</p>
+                                    <p class="mb-4" style="text-align:justify">過去因為手機在計算速度與記憶體容量上的限制，遊戲中為了達到即時互動的效果，大多只是將場景與人物以貼圖的方式顯示在畫面上，或是使用光柵化的方法產生陰影與直接光照的效果，但很難有反射、折射、散射等讓玩家有臨場感的逼真畫面。<br />
+													如今電腦上實時光線追蹤技術已趨於成熟，手機將不可避免地成為下一個目標。在此篇論文中，我們使用開放式圖形庫的計算著色器，利用手機顯卡的平行計算能力來實現路徑追蹤；此外我們編寫了加速結構（具有表面積啟發式的邊界體積層次樹、霍夫曼樹）來減少找尋三角片交叉的耗時，並使用「無堆疊」的方法作遍歷，因此可以在單指令多執行緒架構的顯卡上高效運行，更實驗了不同的光線追蹤方法（雙向路徑追蹤、梅特羅波利斯光傳輸）來加速收斂場景中的顏色；如最後的成果所呈現，即使是擁有豐富材質的複雜場景，我們的程式依舊可以在很短的時間內畫出雜訊少又逼真的圖。</p>
+									<a class="btn btn-primary" href="https://hdl.handle.net/11296/f6m3qh" target="_blank">
+										<i class="fas fa-download me-2"></i>
+										論文下載
+									</a>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Codes -->
+		<!-- Portfolio Code 1-->
+        <div class="portfolio-modal modal fade" id="portfolioCode1" tabindex="-1" aria-labelledby="portfolioCode1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">GPU基準測試視覺化</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/code01.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+									<p class="mb-4">修課名稱: 1121 資料視覺化 (Data Visualization)</p>
+									<p class="mb-4">授課老師: 王科植</p>
+                                    <p class="mb-4">使用程式: HTML, CSS, JavaScript</p>
+                                    <p class="mb-4">關鍵技術: D3.js</p>
+									<a class="btn btn-primary" href="assets/code/gpu_benchmark" target="_blank">
+										<i class="fa-solid fa-gear me-2"></i>
+										演示網頁
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- Portfolio Models -->
+        <!-- Portfolio Model 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModel3" tabindex="-1" aria-labelledby="portfolioModel3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">酋長過馬路</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/3d03.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">使用工具: 3ds Max</p>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=P3MQUGUaByY" target="_blank">
+										<i class="fab fa-youtube"></i>
+										演示影片
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Model 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModel2" tabindex="-1" aria-labelledby="portfolioModel2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">跖行機械結構</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/3d02.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">使用工具: SolidWorks</p>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=f7AN90NLft4" target="_blank">
+										<i class="fab fa-youtube"></i>
+										演示影片
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Model 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModel1" tabindex="-1" aria-labelledby="portfolioModel1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">師大資工系館會議室</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/3d01.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">使用工具: Blender</p>
+									<a class="btn btn-primary" href="https://www.youtube.com/watch?v=xdI0i6bqUy0" target="_blank">
+										<i class="fab fa-youtube"></i>
+										360影片
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Draws-->
+        <!-- Portfolio Draw 3-->
+        <div class="portfolio-modal modal fade" id="portfolioDraw3" tabindex="-1" aria-labelledby="portfolioDraw3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">日本鼬</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/2d03.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">使用工具: Photoshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Draw 2-->
+        <div class="portfolio-modal modal fade" id="portfolioDraw2" tabindex="-1" aria-labelledby="portfolioDraw2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">角卷綿芽</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/2d02.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">使用工具: Photoshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Draw 1-->
+        <div class="portfolio-modal modal fade" id="portfolioDraw1" tabindex="-1" aria-labelledby="portfolioDraw1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">松鼠娘</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/2d01.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">使用工具: Photoshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

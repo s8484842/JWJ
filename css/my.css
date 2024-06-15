@@ -1,0 +1,43 @@
+.form-must {
+	color: red;
+	font-size: 16px;
+}
+
+.col-lg-8 .mb-4 {
+	text-align: left;
+}
+
+.portfolio-subtitle {
+	margin: 10px;
+	font-size: 1.6rem;
+	font-weight: 900;
+	text-align: center;
+}
+
+.dialog{
+	position: fixed;
+	top: 20%;
+	left: 5%;
+	width: 90%;
+	height: 60%;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px;
+	
+	font-size: 16px;
+	
+	display: none;
+	justify-content: center;   
+	align-items: center;
+	align-content: center;      
+	flex-wrap: wrap;
+	
+	z-index: 9999;
+}
+
+.dialog>.close {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	cursor: pointer;/*cursor游標pointer指針:改變鼠標*/
+}
